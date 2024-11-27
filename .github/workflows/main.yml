@@ -15,6 +15,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2
       
     - name: Build solution
-      run:  #TODO
+      run:  msbuild .\PhysicsGame.sln /p:Configuration=Release
+
 
    
